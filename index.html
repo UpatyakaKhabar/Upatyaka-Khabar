@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upatyaka Khabar</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .hero-section {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .news-section {
+      padding: 40px 0;
+    }
+    .news-card {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      background: white;
+    }
+    .news-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .news-card h3 {
+      font-size: 1.5rem;
+      margin: 15px;
+    }
+    .news-card p {
+      margin: 0 15px 15px;
+      color: #555;
+    }
+    .sidebar {
+      background: white;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .sidebar h4 {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Upatyaka Khabar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Welcome to Upatyaka Khabar</h1>
+      <p>Your trusted source for local news and updates.</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="news-section">
+    <div class="container">
+      <div class="row">
+        <!-- Main News Column -->
+        <div class="col-lg-8">
+          <div class="news-card">
+            <img src="https://via.placeholder.com/800x400" alt="Featured News">
+            <h3>Featured News Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel justo vitae magna tincidunt tincidunt.</p>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="news-card">
+                <img src="https://via.placeholder.com/400x200" alt="News 1">
+                <h3>News Title 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="news-card">
+                <img src="https://via.placeholder.com/400x200" alt="News 2">
+                <h3>News Title 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+          <div class="sidebar">
+            <h4>Popular News</h4>
+            <ul>
+              <li><a href="#">Popular News 1</a></li>
+              <li><a href="#">Popular News 2</a></li>
+              <li><a href="#">Popular News 3</a></li>
+            </ul>
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#">Politics</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Entertainment</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Upatyaka Khabar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
